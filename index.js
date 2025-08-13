@@ -27,9 +27,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://keckatihar.in",
-      "https://www.keckatihar.in",
-      "https://tpo.keckatihar.in",
+      "https://tpo-beta.vercel.app" 
       // "http://localhost:3000",
     ], 
     credentials: true,
